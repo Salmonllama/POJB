@@ -18,12 +18,12 @@ This project uses its own "build tool" (if you can call it that).
 
 | Command                   | What it does                                                           |
 |---------------------------|------------------------------------------------------------------------|
-| `java Build.java compile` | Compiles all source files in `src/` into `out/classes`                 |
-| `java Build.java jar`     | Compile all source files **and** package them into a `.jar`            |
-| `java Build.java test`    | Currently stubbed to `System.exit(0)` until test harnesses are written |
-| `java Build.java help`    | Prints the help menu                                                   |
+| `java tools/Build.java compile` | Compiles all source files in `src/` into `out/classes`                 |
+| `java tools/Build.java jar`     | Compile all source files **and** package them into a `.jar`            |
+| `java tools/Build.java test`    | Currently stubbed to `System.exit(0)` until test harnesses are written |
+| `java tools/Build.java help`    | Prints the help menu                                                   |
 
 ### How to run
-`java Build.java jar` -> Compiles source and packages the jar
+`java tools/Build.java jar` -> Compiles source and packages the jar
 
 `java -jar out/libs/modbot.jar` -> Runs the bot. Run with --version to see app version

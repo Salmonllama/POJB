@@ -14,6 +14,6 @@ jobs:
               with:
                   distribution: temurin
                   java-version: '21'
-            - run: java Build.java jar
+            - run: java tools/Build.java jar
             - run: java -jar out/libs/modbot.jar --version
-            - run: java Build.java test
+            - run: java tools/Build.java test
