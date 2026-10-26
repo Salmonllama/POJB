@@ -13,6 +13,15 @@ here's what you need to know:
 **JDK21.** That's literally it. You will not need to install any dependencies, or frameworks, or use
 any build tools. See below.
 
+### Contributing Pre-requisites
+
+**JDK21** In order to write or compile anything you need JDK21
+
+#### Editor Specific Settings
+- VSCode, Codium, Code Server: Language Support for Java extension by Red Hat. It's the bare minimum, but I really recommend the Extension Pack for Java extension pack by vscjava. 
+- Eclipse: Nothing special, just open the repo
+- IntelliJ: Repo still needs .idea/module.xml set up with src/ and tools/ as source folders. I don't have access to IntelliJ at the moment so that'll get resolved eventually.
+
 ### How to use
 This project uses its own "build tool" (if you can call it that).
 
