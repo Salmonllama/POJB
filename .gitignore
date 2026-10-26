@@ -1,2 +1,4 @@
 out/
-.idea/
+.idea/*
+.settings/
+!.idea/modules.xml
